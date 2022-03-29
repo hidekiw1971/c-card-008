@@ -6,8 +6,23 @@
 
 ## 概要
 
-- カード（画像（擬似要素で設定）、タイトル、説明、詳しく見る）
-- swiper の設定なし。擬似要素に設定はできない為。
+- カード（画像（swiper/slider）、タイトル、説明、詳しく見る、pagination は外側に設置）
+- `pagination`を外に配置する為、cdn 版を使用してません。
+- `swiper-bundle.min.css`ダウンロード版を使用してます。
+- https://unpkg.com/browse/swiper@8.0.7/swiper-bundle.min.css
+-
+- html は以下を`<div class="swiper">`の外に移動する。
+- `<!-- If we need pagination -->`
+- `<div class="swiper-pagination"></div>`
+
+- css は以下は`swiper-bundle.min.css`の以下を修正する。
+- `transform: translate3d(0, 0, 0);`→`transform: translate3d(0, 35px, 0);`に変更。
+- `.swiper-pagination {`
+- `position: absolute;`
+- `text-align: center;`
+- `transition: 0.3s opacity;`
+- `transform: translate3d(0, 35px, 0);`
+- `z-index: 10;`
 
 ## 仕様
 
@@ -23,7 +38,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> card をコピペ。
 
 ## w3c html チェック結果
 
@@ -53,10 +68,12 @@
 - https://www.granfairs.com/blog/staff/centering-by-css
 - CSS で文字や div を下揃えする方法４選【flex など】
 - https://csshtml.work/side-bottom/
+- Swiper の基本な使い方
+- スライダー下部に表示される ● ナビゲーション（ページネーション）の表示位置を外側に出したい場合は、対象の HTML 要素を以下のように単に外側に出す。
 
 ## 更新履歴
 
-- 2022/3/27 初版 作成完了
+- 2022/3/27 初版（スマホ版はある程度完成。pagination も外側に設定済。）
 
 ## 環境・使い方
 
