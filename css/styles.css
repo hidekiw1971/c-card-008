@@ -95,7 +95,6 @@ html {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
 
@@ -182,12 +181,16 @@ select::-ms-expand {
   border: #fff solid 1px;
   color: #fff;
 }
-.card__contents--inner {
+.card__content {
   display: inline-block;
   width: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
+}
+.card__contents--inner {
+  width: 100%;
+  height: 100%;
 }
 .card__contents {
   width: 100%;
