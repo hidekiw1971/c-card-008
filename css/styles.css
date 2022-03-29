@@ -221,4 +221,10 @@ select::-ms-expand {
   color: #fff;
   position: relative;
 }
+.swiper {
+  width: 375px;
+  width: 23.4375rem;
+  height: 261px;
+  height: 16.3125rem;
+}
 /*# sourceMappingURL=styles.css.map */
