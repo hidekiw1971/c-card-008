@@ -1,0 +1,8 @@
+@use "global" as *;
+.box {
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

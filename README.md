@@ -6,7 +6,8 @@
 
 ## 概要
 
-- ｘｘｘ
+- カード（画像（擬似要素で設定）、タイトル、説明、詳しく見る）
+- swiper の設定なし。擬似要素に設定はできない為。
 
 ## 仕様
 
@@ -34,16 +35,28 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0038.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- CSS 擬似要素「before/after」の背景画像表示で鬼ハマリしたので備忘録メモ
+- https://tinyurl.com/y8j7uexx
+- CSS 疑似要素の content で画像を表示する方法！サイズを調整するには？
+- https://kouhekikyozou.com/css_content_image
+- 【CSS】疑似要素の画像サイズを変更する方法
+- https://saruwakakun.com/html-css/reference/change-before-after
+- 疑似要素で設定した画像のサイズを変更する方法を紹介！
+- https://qumeru.com/magazine/537
+- bottom
+- https://developer.mozilla.org/ja/docs/Web/CSS/bottom
+- CSS で要素を上下や左右から中央寄せする 7 つの方法
+- https://www.granfairs.com/blog/staff/centering-by-css
+- CSS で文字や div を下揃えする方法４選【flex など】
+- https://csshtml.work/side-bottom/
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 作成完了
+- 2022/3/27 初版 作成完了
 
 ## 環境・使い方
 

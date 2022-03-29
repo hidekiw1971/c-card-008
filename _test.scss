@@ -1,5 +1,6 @@
 @use "global" as *;
-.xxx {
+.test {
+  display: inline-block;
   @include mq(md) {
   }
   @include mq(xl) {

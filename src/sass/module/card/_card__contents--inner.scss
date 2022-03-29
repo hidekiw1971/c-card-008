@@ -1,0 +1,14 @@
+@use "global" as *;
+.card__contents--inner {
+  display: inline-block;
+  width: 100%;
+  // position設定 .cardの子要素
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

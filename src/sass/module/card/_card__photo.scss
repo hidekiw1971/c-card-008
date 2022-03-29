@@ -1,0 +1,15 @@
+@use "global" as *;
+.card__photo {
+  display: inline-block;
+  width: 100%;
+  height: rem(261);
+  background-color: #f00;
+  // .cardの子要素
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

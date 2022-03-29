@@ -1,0 +1,16 @@
+@use "global" as *;
+.card {
+  display: inline-block;
+  max-width: rem(375);
+  width: 100%;
+  //   max-height: rem(597);
+  height: rem(597);
+  background-color: #333;
+  color: #fff;
+  // position 親要素
+  position: relative;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
