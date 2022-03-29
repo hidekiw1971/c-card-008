@@ -14,7 +14,7 @@
 - html は以下を`<div class="swiper">`の外に移動する。
 - `<!-- If we need pagination -->`
 - `<div class="swiper-pagination"></div>`
-
+- 
 - css は以下は`swiper-bundle.min.css`の以下を修正する。
 - `transform: translate3d(0, 0, 0);`→`transform: translate3d(0, 35px, 0);`に変更。
 - `.swiper-pagination {`
