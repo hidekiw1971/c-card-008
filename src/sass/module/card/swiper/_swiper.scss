@@ -1,5 +1,11 @@
 @use "global" as *;
 .swiper {
-  width: rem(375);
-  height: rem(261);
+  // width: rem(375);
+  width: 100%;
+  // height: rem(261);
+  height: 100%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
 }

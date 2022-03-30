@@ -14,7 +14,7 @@
 - html は以下を`<div class="swiper">`の外に移動する。
 - `<!-- If we need pagination -->`
 - `<div class="swiper-pagination"></div>`
-- 
+-
 - css は以下は`swiper-bundle.min.css`の以下を修正する。
 - `transform: translate3d(0, 0, 0);`→`transform: translate3d(0, 35px, 0);`に変更。
 - `.swiper-pagination {`
@@ -73,6 +73,7 @@
 
 ## 更新履歴
 
+- 2022/3/20 swiper(slide)、ボタンの slide も実装完了。
 - 2022/3/27 初版（スマホ版はある程度完成。pagination も外側に設定済。）
 
 ## 環境・使い方

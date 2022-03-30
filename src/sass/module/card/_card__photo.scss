@@ -3,12 +3,17 @@
   display: inline-block;
   width: 100%;
   height: rem(261);
-  background-color: #f00;
+  // background-color: #f00;
   // .cardの子要素
   position: absolute;
   top: 0;
   left: 0;
   @include mq(md) {
+    max-width: rem(557);
+    width: 100%;
+    height: rem(389);
+    top: 50%;
+    transform: translate(-30%, -50%);
   }
   @include mq(xl) {
   }
